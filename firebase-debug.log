@@ -1,0 +1,157 @@
+[debug] [2023-06-15T10:26:51.961Z] ----------------------------------------------------------------------
+[debug] [2023-06-15T10:26:51.965Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-15T10:26:51.965Z] CLI Version:   12.3.1
+[debug] [2023-06-15T10:26:51.966Z] Platform:      win32
+[debug] [2023-06-15T10:26:51.966Z] Node Version:  v18.16.0
+[debug] [2023-06-15T10:26:51.969Z] Time:          Thu Jun 15 2023 15:56:51 GMT+0530 (India Standard Time)
+[debug] [2023-06-15T10:26:51.970Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-15T10:26:52.122Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-06-15T10:26:52.132Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-15T10:26:52.133Z] > authorizing via signed-in user (vwankhade120@gmail.com)
+[debug] [2023-06-15T10:26:52.135Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ACER\Downloads\ecommerce-react-master\lenskart
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-15T10:27:21.498Z] Using project from CLI flag: specstacular-4e8e1
+[debug] [2023-06-15T10:27:21.506Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/specstacular-4e8e1 [none]
+[debug] [2023-06-15T10:27:23.274Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/specstacular-4e8e1 200
+[debug] [2023-06-15T10:27:23.274Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/specstacular-4e8e1 {"projectId":"specstacular-4e8e1","projectNumber":"931054868160","displayName":"Specstacular","name":"projects/specstacular-4e8e1","resources":{"hostingSite":"specstacular-4e8e1","realtimeDatabaseInstance":"specstacular-4e8e1-default-rtdb","storageBucket":"specstacular-4e8e1.appspot.com","locationId":"asia-south1"},"state":"ACTIVE","etag":"1_b2f76a83-13cf-462f-9119-5b636cefd428"}
+[info] i  Using project specstacular-4e8e1 (Specstacular) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-06-15T10:27:47.935Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-06-15T10:27:48.344Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-06-15T10:27:48.345Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.22.2","browserURL":"https://www.gstatic.com/firebasejs/9.22.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.22.2/firebase.tgz"},"live":{"version":"9.22","browserURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.22.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.22.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.22.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.22.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.22.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.22.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.22.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.22.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.22.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.22.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\ACER\Downloads\ecommerce-react-master\lenskart is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=654504160&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-06-15T10:29:00.728Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-06-15T10:29:00.729Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-06-15T10:29:01.205Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-06-15T10:29:01.206Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-06-15T10:29:01.666Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-06-15T10:29:02.208Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-06-15T10:29:02.209Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Vishal-wankhade","id":87899397,"node_id":"MDQ6VXNlcjg3ODk5Mzk3","avatar_url":"https://avatars.githubusercontent.com/u/87899397?v=4","gravatar_id":"","url":"https://api.github.com/users/Vishal-wankhade","html_url":"https://github.com/Vishal-wankhade","followers_url":"https://api.github.com/users/Vishal-wankhade/followers","following_url":"https://api.github.com/users/Vishal-wankhade/following{/other_user}","gists_url":"https://api.github.com/users/Vishal-wankhade/gists{/gist_id}","starred_url":"https://api.github.com/users/Vishal-wankhade/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Vishal-wankhade/subscriptions","organizations_url":"https://api.github.com/users/Vishal-wankhade/orgs","repos_url":"https://api.github.com/users/Vishal-wankhade/repos","events_url":"https://api.github.com/users/Vishal-wankhade/events{/privacy}","received_events_url":"https://api.github.com/users/Vishal-wankhade/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":27,"public_gists":0,"followers":0,"following":0,"created_at":"2021-07-24T11:19:58Z","updated_at":"2023-06-15T10:28:43Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":15887,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Vishal-wankhade 
+[info] 
+[debug] [2023-06-15T10:29:24.092Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-06-15T10:29:24.734Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-06-15T10:29:24.734Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-06-15T10:30:14.417Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-06-15T10:30:14.836Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-06-15T10:30:14.836Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-06-15T10:37:17.528Z] ----------------------------------------------------------------------
+[debug] [2023-06-15T10:37:17.533Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-06-15T10:37:17.534Z] CLI Version:   12.3.1
+[debug] [2023-06-15T10:37:17.535Z] Platform:      win32
+[debug] [2023-06-15T10:37:17.535Z] Node Version:  v18.16.0
+[debug] [2023-06-15T10:37:17.538Z] Time:          Thu Jun 15 2023 16:07:17 GMT+0530 (India Standard Time)
+[debug] [2023-06-15T10:37:17.539Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-15T10:37:17.731Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-06-15T10:37:17.741Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-15T10:37:17.742Z] > authorizing via signed-in user (vwankhade120@gmail.com)
+[debug] [2023-06-15T10:37:17.744Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ACER\Downloads\ecommerce-react-master\lenskart
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-15T10:37:50.352Z] Using project from CLI flag: specstacular-4e8e1
+[debug] [2023-06-15T10:37:50.363Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/specstacular-4e8e1 [none]
+[debug] [2023-06-15T10:37:51.131Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/specstacular-4e8e1 200
+[debug] [2023-06-15T10:37:51.131Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/specstacular-4e8e1 {"projectId":"specstacular-4e8e1","projectNumber":"931054868160","displayName":"Specstacular","name":"projects/specstacular-4e8e1","resources":{"hostingSite":"specstacular-4e8e1","realtimeDatabaseInstance":"specstacular-4e8e1-default-rtdb","storageBucket":"specstacular-4e8e1.appspot.com","locationId":"asia-south1"},"state":"ACTIVE","etag":"1_b2f76a83-13cf-462f-9119-5b636cefd428"}
+[info] i  Using project specstacular-4e8e1 (Specstacular) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2023-06-15T10:38:02.103Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-06-15T10:38:02.421Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-06-15T10:38:02.421Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.22.2","browserURL":"https://www.gstatic.com/firebasejs/9.22.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.22.2/firebase.tgz"},"live":{"version":"9.22","browserURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.22.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.22.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.22.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.22.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.22.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.22.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.22.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.22.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.22.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.22.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\ACER\Downloads\ecommerce-react-master\lenskart is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=15624520&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-06-15T10:38:07.502Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-06-15T10:38:07.502Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-06-15T10:38:08.811Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-06-15T10:38:08.811Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-06-15T10:38:08.832Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-06-15T10:38:09.575Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-06-15T10:38:09.576Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Vishal-wankhade","id":87899397,"node_id":"MDQ6VXNlcjg3ODk5Mzk3","avatar_url":"https://avatars.githubusercontent.com/u/87899397?v=4","gravatar_id":"","url":"https://api.github.com/users/Vishal-wankhade","html_url":"https://github.com/Vishal-wankhade","followers_url":"https://api.github.com/users/Vishal-wankhade/followers","following_url":"https://api.github.com/users/Vishal-wankhade/following{/other_user}","gists_url":"https://api.github.com/users/Vishal-wankhade/gists{/gist_id}","starred_url":"https://api.github.com/users/Vishal-wankhade/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Vishal-wankhade/subscriptions","organizations_url":"https://api.github.com/users/Vishal-wankhade/orgs","repos_url":"https://api.github.com/users/Vishal-wankhade/repos","events_url":"https://api.github.com/users/Vishal-wankhade/events{/privacy}","received_events_url":"https://api.github.com/users/Vishal-wankhade/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":27,"public_gists":0,"followers":0,"following":0,"created_at":"2021-07-24T11:19:58Z","updated_at":"2023-06-15T10:31:45Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":15887,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Vishal-wankhade 
+[info] 
